@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C13MyHealthyBaby7Journal", ""]
+- ["C13MyHealthyBaby7Journal", "fetchRequest"]
+- ["C13MyHealthyBaby7Journal", "bottle"]
+- ["C13MyHealthyBaby7Journal", "breast"]
+- ["C13MyHealthyBaby7Journal", "date"]
+- ["C13MyHealthyBaby7Journal", "id"]
+- ["C13MyHealthyBaby7Journal", "pee"]
+- ["C13MyHealthyBaby7Journal", "poop"]
+- ["C13MyHealthyBaby7Journal", "baby"]
+provides-dynamic-lookup:
+- "pee"
+- "poop"
+- "id"
+- "baby"
+- "date"
+- "bottle"
+- "breast"
+depends-top-level:
+- !private "StringLiteralType"
+- "NSFetchRequest"
+- "NSDate"
+- "Bool"
+- "Baby"
+- "Journal"
+- "String"
+- "Double"
+depends-member:
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- ["Ps9AnyObject", "baby"]
+- ["Ps9AnyObject", "bottle"]
+- ["Ps9AnyObject", "breast"]
+- ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "fetchRequest"]
+- ["Ps9AnyObject", "id"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "pee"]
+- ["Ps9AnyObject", "poop"]
+- !private ["Ps7CVarArg", "NSFetchRequest"]
+- ["Ps7CVarArg", "baby"]
+- ["Ps7CVarArg", "bottle"]
+- ["Ps7CVarArg", "breast"]
+- ["Ps7CVarArg", "date"]
+- ["Ps7CVarArg", "fetchRequest"]
+- ["Ps7CVarArg", "id"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "pee"]
+- ["Ps7CVarArg", "poop"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
+- ["Ps28CustomDebugStringConvertible", "baby"]
+- ["Ps28CustomDebugStringConvertible", "bottle"]
+- ["Ps28CustomDebugStringConvertible", "breast"]
+- ["Ps28CustomDebugStringConvertible", "date"]
+- ["Ps28CustomDebugStringConvertible", "fetchRequest"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "pee"]
+- ["Ps28CustomDebugStringConvertible", "poop"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
+- ["Ps23CustomStringConvertible", "baby"]
+- ["Ps23CustomStringConvertible", "bottle"]
+- ["Ps23CustomStringConvertible", "breast"]
+- ["Ps23CustomStringConvertible", "date"]
+- ["Ps23CustomStringConvertible", "fetchRequest"]
+- ["Ps23CustomStringConvertible", "id"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "pee"]
+- ["Ps23CustomStringConvertible", "poop"]
+- !private ["Ps9Equatable", "NSFetchRequest"]
+- ["Ps9Equatable", "baby"]
+- ["Ps9Equatable", "bottle"]
+- ["Ps9Equatable", "breast"]
+- ["Ps9Equatable", "date"]
+- ["Ps9Equatable", "fetchRequest"]
+- ["Ps9Equatable", "id"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "pee"]
+- ["Ps9Equatable", "poop"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSFetchRequest"]
+- ["Ps8Hashable", "baby"]
+- ["Ps8Hashable", "bottle"]
+- ["Ps8Hashable", "breast"]
+- ["Ps8Hashable", "date"]
+- ["Ps8Hashable", "fetchRequest"]
+- ["Ps8Hashable", "id"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "pee"]
+- ["Ps8Hashable", "poop"]
+- ["C13MyHealthyBaby7Journal", "Baby"]
+- ["C13MyHealthyBaby7Journal", "Bool"]
+- ["C13MyHealthyBaby7Journal", "Double"]
+- ["C13MyHealthyBaby7Journal", "Journal"]
+- ["C13MyHealthyBaby7Journal", "NSDate"]
+- ["C13MyHealthyBaby7Journal", "NSFetchRequest"]
+- ["C13MyHealthyBaby7Journal", "String"]
+- ["C13MyHealthyBaby7Journal", "baby"]
+- ["C13MyHealthyBaby7Journal", "bottle"]
+- ["C13MyHealthyBaby7Journal", "breast"]
+- ["C13MyHealthyBaby7Journal", "date"]
+- ["C13MyHealthyBaby7Journal", "deinit"]
+- ["C13MyHealthyBaby7Journal", "fetchRequest"]
+- ["C13MyHealthyBaby7Journal", "id"]
+- ["C13MyHealthyBaby7Journal", "pee"]
+- ["C13MyHealthyBaby7Journal", "poop"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo14NSFetchRequest", "deinit"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["PSo20NSFetchRequestResult", "NSFetchRequest"]
+- ["PSo20NSFetchRequestResult", "baby"]
+- ["PSo20NSFetchRequestResult", "bottle"]
+- ["PSo20NSFetchRequestResult", "breast"]
+- ["PSo20NSFetchRequestResult", "date"]
+- ["PSo20NSFetchRequestResult", "fetchRequest"]
+- ["PSo20NSFetchRequestResult", "id"]
+- ["PSo20NSFetchRequestResult", "pee"]
+- ["PSo20NSFetchRequestResult", "poop"]
+- ["CSo15NSManagedObject", "Baby"]
+- ["CSo15NSManagedObject", "Bool"]
+- ["CSo15NSManagedObject", "Double"]
+- ["CSo15NSManagedObject", "Journal"]
+- ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSFetchRequest"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "baby"]
+- ["CSo15NSManagedObject", "bottle"]
+- ["CSo15NSManagedObject", "breast"]
+- ["CSo15NSManagedObject", "date"]
+- ["CSo15NSManagedObject", "fetchRequest"]
+- ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "pee"]
+- ["CSo15NSManagedObject", "poop"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Baby"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Journal"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSFetchRequest"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "baby"]
+- ["CSo8NSObject", "bottle"]
+- ["CSo8NSObject", "breast"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "fetchRequest"]
+- ["CSo8NSObject", "id"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "pee"]
+- ["CSo8NSObject", "poop"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- ["PSo16NSObjectProtocol", "baby"]
+- ["PSo16NSObjectProtocol", "bottle"]
+- ["PSo16NSObjectProtocol", "breast"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "fetchRequest"]
+- ["PSo16NSObjectProtocol", "id"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "pee"]
+- ["PSo16NSObjectProtocol", "poop"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSFetchRequest"]
+- ["Ps9_Hashable", "baby"]
+- ["Ps9_Hashable", "bottle"]
+- ["Ps9_Hashable", "breast"]
+- ["Ps9_Hashable", "date"]
+- ["Ps9_Hashable", "fetchRequest"]
+- ["Ps9_Hashable", "id"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "pee"]
+- ["Ps9_Hashable", "poop"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C13MyHealthyBaby7Journal"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo14NSFetchRequest"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "4bd50814bc8d9ac3d5a2da6df30b9757"

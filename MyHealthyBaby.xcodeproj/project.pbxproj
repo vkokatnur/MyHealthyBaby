@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		174614061DBBB592009F62C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174614051DBBB592009F62C3 /* AppDelegate.swift */; };
-		174614081DBBB592009F62C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174614071DBBB592009F62C3 /* ViewController.swift */; };
+		174614081DBBB592009F62C3 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174614071DBBB592009F62C3 /* JournalViewController.swift */; };
 		1746140B1DBBB592009F62C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174614091DBBB592009F62C3 /* Main.storyboard */; };
 		1746140E1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1746140C1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodeld */; };
 		174614101DBBB592009F62C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1746140F1DBBB592009F62C3 /* Assets.xcassets */; };
 		174614131DBBB592009F62C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174614111DBBB592009F62C3 /* LaunchScreen.storyboard */; };
 		1746141E1DBBB592009F62C3 /* MyHealthyBabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1746141D1DBBB592009F62C3 /* MyHealthyBabyTests.swift */; };
 		174614291DBBB592009F62C3 /* MyHealthyBabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174614281DBBB592009F62C3 /* MyHealthyBabyUITests.swift */; };
+		174614371DBC83D8009F62C3 /* ViewTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174614361DBC83D8009F62C3 /* ViewTableController.swift */; };
+		BDCACCC31DBDA8BC00177836 /* NewBabySetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCACCC21DBDA8BC00177836 /* NewBabySetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		174614021DBBB592009F62C3 /* MyHealthyBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthyBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174614051DBBB592009F62C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		174614071DBBB592009F62C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		174614071DBBB592009F62C3 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		1746140A1DBBB592009F62C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1746140D1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyHealthyBaby.xcdatamodel; sourceTree = "<group>"; };
 		1746140F1DBBB592009F62C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		174614241DBBB592009F62C3 /* MyHealthyBabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHealthyBabyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174614281DBBB592009F62C3 /* MyHealthyBabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthyBabyUITests.swift; sourceTree = "<group>"; };
 		1746142A1DBBB592009F62C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174614361DBC83D8009F62C3 /* ViewTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTableController.swift; sourceTree = "<group>"; };
+		BDCACCC21DBDA8BC00177836 /* NewBabySetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBabySetup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		174613F91DBBB591009F62C3 = {
 			isa = PBXGroup;
 			children = (
+				BDCACCC41DBDAA9A00177836 /* Resources */,
+				BDCACCBF1DBD9A5800177836 /* Model and Classes */,
 				174614041DBBB592009F62C3 /* MyHealthyBaby */,
 				1746141C1DBBB592009F62C3 /* MyHealthyBabyTests */,
 				174614271DBBB592009F62C3 /* MyHealthyBabyUITests */,
@@ -100,12 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				174614051DBBB592009F62C3 /* AppDelegate.swift */,
-				174614071DBBB592009F62C3 /* ViewController.swift */,
-				174614091DBBB592009F62C3 /* Main.storyboard */,
-				1746140F1DBBB592009F62C3 /* Assets.xcassets */,
-				174614111DBBB592009F62C3 /* LaunchScreen.storyboard */,
+				174614071DBBB592009F62C3 /* JournalViewController.swift */,
+				174614361DBC83D8009F62C3 /* ViewTableController.swift */,
 				174614141DBBB592009F62C3 /* Info.plist */,
-				1746140C1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodeld */,
+				1746140F1DBBB592009F62C3 /* Assets.xcassets */,
+				BDCACCC21DBDA8BC00177836 /* NewBabySetup.swift */,
 			);
 			path = MyHealthyBaby;
 			sourceTree = "<group>";
@@ -126,6 +131,23 @@
 				1746142A1DBBB592009F62C3 /* Info.plist */,
 			);
 			path = MyHealthyBabyUITests;
+			sourceTree = "<group>";
+		};
+		BDCACCBF1DBD9A5800177836 /* Model and Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1746140C1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodeld */,
+			);
+			name = "Model and Classes";
+			sourceTree = "<group>";
+		};
+		BDCACCC41DBDAA9A00177836 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				174614091DBBB592009F62C3 /* Main.storyboard */,
+				174614111DBBB592009F62C3 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1746140E1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodeld in Sources */,
-				174614081DBBB592009F62C3 /* ViewController.swift in Sources */,
+				174614081DBBB592009F62C3 /* JournalViewController.swift in Sources */,
 				174614061DBBB592009F62C3 /* AppDelegate.swift in Sources */,
+				BDCACCC31DBDA8BC00177836 /* NewBabySetup.swift in Sources */,
+				174614371DBC83D8009F62C3 /* ViewTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +330,7 @@
 				1746140A1DBBB592009F62C3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = MyHealthyBaby;
 			sourceTree = "<group>";
 		};
 		174614111DBBB592009F62C3 /* LaunchScreen.storyboard */ = {
@@ -314,6 +339,7 @@
 				174614121DBBB592009F62C3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = MyHealthyBaby;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -509,6 +535,7 @@
 				1746142F1DBBB592009F62C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174614301DBBB592009F62C3 /* Build configuration list for PBXNativeTarget "MyHealthyBabyTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +544,7 @@
 				174614321DBBB592009F62C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174614331DBBB592009F62C3 /* Build configuration list for PBXNativeTarget "MyHealthyBabyUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +553,7 @@
 				174614351DBBB592009F62C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -535,7 +564,8 @@
 				1746140D1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodel */,
 			);
 			currentVersion = 1746140D1DBBB592009F62C3 /* MyHealthyBaby.xcdatamodel */;
-			path = MyHealthyBaby.xcdatamodeld;
+			name = MyHealthyBaby.xcdatamodeld;
+			path = MyHealthyBaby/MyHealthyBaby.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

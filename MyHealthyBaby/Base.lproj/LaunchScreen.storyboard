@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +19,40 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rla-Qa-71O">
+                                <color key="backgroundColor" red="0.73052281232355554" green="0.8684507139717863" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Healthy Baby" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzR-1c-ZYR">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baby_launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="zTT-v9-wO7">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zTT-v9-wO7" secondAttribute="height" multiplier="235:215" id="Mw3-3q-ZBa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Rla-Qa-71O" secondAttribute="trailing" id="HKq-iO-JG4"/>
+                            <constraint firstItem="zTT-v9-wO7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OeK-wE-A6Z"/>
+                            <constraint firstItem="SzR-1c-ZYR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="100" id="TvR-Jy-QgO"/>
+                            <constraint firstItem="SzR-1c-ZYR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ugt-pH-DbR"/>
+                            <constraint firstItem="Rla-Qa-71O" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="aDF-ag-ETN"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Rla-Qa-71O" secondAttribute="bottom" id="ehg-Xr-lWX"/>
+                            <constraint firstItem="zTT-v9-wO7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="200" id="jzw-BJ-Jfr"/>
+                            <constraint firstItem="Rla-Qa-71O" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="oum-A7-wFn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="baby_launch_image" width="235" height="215"/>
+    </resources>
 </document>

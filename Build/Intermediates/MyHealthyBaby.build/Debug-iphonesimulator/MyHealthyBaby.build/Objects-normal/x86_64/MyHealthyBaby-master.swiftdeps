@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "5b04320fed079b7e5d2cc465f4f5a271"
+build_time: [530644903, 47873000]
+inputs:
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/MyHealthyBaby/JournalViewController.swift": [530604383, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/MyHealthyBaby/AppDelegate.swift": [530463378, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/MyHealthyBaby/NewBabySetup.swift": [530644897, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/MyHealthyBaby/ViewTableController.swift": [530592470, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/Build/Intermediates/MyHealthyBaby.build/Debug-iphonesimulator/MyHealthyBaby.build/DerivedSources/CoreDataGenerated/MyHealthyBaby/Baby+CoreDataClass.swift": [530606685, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/Build/Intermediates/MyHealthyBaby.build/Debug-iphonesimulator/MyHealthyBaby.build/DerivedSources/CoreDataGenerated/MyHealthyBaby/Baby+CoreDataProperties.swift": [530606685, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/Build/Intermediates/MyHealthyBaby.build/Debug-iphonesimulator/MyHealthyBaby.build/DerivedSources/CoreDataGenerated/MyHealthyBaby/Journal+CoreDataClass.swift": [530606685, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/Build/Intermediates/MyHealthyBaby.build/Debug-iphonesimulator/MyHealthyBaby.build/DerivedSources/CoreDataGenerated/MyHealthyBaby/Journal+CoreDataProperties.swift": [530606685, 0]
+  "/Users/vkokatnur/Documents/iOS/MyHealthyBaby/Build/Intermediates/MyHealthyBaby.build/Debug-iphonesimulator/MyHealthyBaby.build/DerivedSources/CoreDataGenerated/MyHealthyBaby/MyHealthyBaby+CoreDataModel.swift": [530606685, 0]
